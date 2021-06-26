@@ -1,0 +1,21 @@
+.timeline {
+  width: 100%;
+  margin-top: 40px;
+  &__tabs {
+    border-bottom: 1px solid $extra-light-Grey;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+
+    span {
+      font-weight: bold;
+      color: $dark-grey;
+    }
+    span.active {
+      color: $twitter-blue;
+      border-bottom: 5px solid $twitter-blue;
+      padding-bottom: 10px;
+    }
+  }
+}

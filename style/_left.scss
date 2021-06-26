@@ -1,0 +1,121 @@
+.left {
+  padding: 10px;
+
+  &__image-container {
+    img {
+      width: 40px;
+      height: 40px;
+      object-fit: cover;
+    }
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+
+  &__menu-items {
+    display: inline-block;
+    .profile {
+      color: $twitter-blue;
+      margin-bottom: 16px;
+    }
+
+    .item {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      padding-bottom: 10px;
+      padding-left: 30px;
+      padding-top: 10px;
+      margin-bottom: 1px;
+
+      .icon {
+        font-weight: 300;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        i {
+          margin-right: 35px;
+          padding: 2px;
+          font-size: 25px;
+        }
+      }
+      font-size: 21px;
+
+      span {
+        font-weight: 700;
+        margin-left: 4px;
+      }
+
+      &:hover {
+        background-color: $twitter-hover;
+        border-radius: 40px;
+        color: $twitter-blue;
+      }
+    }
+
+    .profile:hover {
+      color: $twitter-blue;
+    }
+  }
+
+  button {
+    width: 220px;
+    background-color: $twitter-blue;
+    border: none;
+    color: white;
+    padding: 16px 8px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 40px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    &:hover {
+      background-color: $twitter-dark-hover;
+    }
+  }
+
+  &__info {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
+    &__image {
+      width: 40px;
+      height: 40px;
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+
+    &__data {
+      width: 60%;
+      margin-left: 20px;
+      span {
+        display: block;
+      }
+      .name {
+        font-weight: bold;
+      }
+      .handle {
+        color: $dark-grey;
+        font-size: 14px;
+      }
+
+      .dots {
+        justify-self: flex-end;
+        font-size: 20px;
+        font-weight: bold;
+      }
+    }
+
+    &:hover {
+      background-color: $twitter-hover;
+      border-radius: 40px;
+    }
+  }
+}

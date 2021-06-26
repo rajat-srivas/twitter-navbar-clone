@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic"
+      rel="stylesheet"
+    />
+    <title>Twitter Navbar Clone</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="left__image-container">
+          <img src="./assets/icons8-twitter.svg" alt="" />
+        </div>
+        <div class="left__menu-items">
+          <div class="item">
+            <div class="icon">
+              <i class="fas fa-home"></i>
+            </div>
+
+            <span>Home</span>
+          </div>
+          <div class="item">
+            <div class="icon">
+              <i class="fas fa-hashtag"></i>
+            </div>
+
+            <span>Explore</span>
+          </div>
+          <div class="item">
+            <div class="icon">
+              <i class="far fa-bell"></i>
+            </div>
+
+            <span>Home</span>
+          </div>
+          <div class="item">
+            <div class="icon">
+              <i class="far fa-envelope"></i>
+            </div>
+
+            <span>Message</span>
+          </div>
+          <div class="item">
+            <div class="icon">
+              <i class="far fa-bookmark"></i>
+            </div>
+
+            <span>Bookmarks</span>
+          </div>
+          <div class="item">
+            <div class="icon">
+              <i class="far far fa-file-alt"></i>
+            </div>
+
+            <span>Lists</span>
+          </div>
+          <div class="item profile">
+            <div class="icon">
+              <i class="far fa-user"></i>
+            </div>
+
+            <span>Profile</span>
+          </div>
+          <div class="item">
+            <div class="icon">
+              <i class="far far fa-circle"></i>
+            </div>
+
+            <span>More</span>
+          </div>
+        </div>
+        <button>Tweet</button>
+        <div class="left__info">
+          <div class="left__info__image">
+            <img src="./assets/profile-image.jpeg" alt="" />
+          </div>
+          <div class="left__info__data">
+            <span class="name">Rajat Srivastava</span>
+            <span class="handle">@rajat_srivas</span>
+          </div>
+          <span class="dots">...</span>
+        </div>
+      </div>
+      <div class="main">
+        <div class="main__navigator">
+          <i class="fas fa-arrow-left"></i>
+          <div class="main__navigator__info">
+            <h2>Rajat Srivastava</h2>
+            <span>6,797 Tweets</span>
+          </div>
+        </div>
+        <div class="main__image-container">
+          <img src="./assets/profile-header.jpg" alt="" />
+        </div>
+        <div class="main__profile-details">
+          <div class="profile-details__image">
+            <img src="./assets//profile-image.jpeg" alt="" />
+          </div>
+          <button class="follow">Edit profile</button>
+        </div>
+        <div class="main__bio">
+          <div class="main___bio__data">
+            <span class="name">Rajat Srivastava</span>
+            <span class="handle">@rajat_srivas</span>
+          </div>
+          <div class="main__bio__info">
+            <p>
+              Proud Indian | Gadget Freak | ManUtd #MUFC ❤️ | Software Developer
+              by Profession, Sports fan by Heart.
+            </p>
+            <div class="location">
+              <div class="location__data">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Pune, India</span>
+              </div>
+              <div class="location__link">
+                <i class="fas fa-link"></i>
+                <a href="https://stackup.hashnode.dev">stackup.hashnode.dev</a>
+              </div>
+              <div class="location__joined">
+                <i class="far fa-calendar-alt"></i>
+                <span>Joined April 2012</span>
+              </div>
+            </div>
+            <div class="followers">
+              <span><strong>287</strong> Following</span>
+              <span><strong>446</strong> Followers</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline__tabs">
+            <span class="active">Tweets</span>
+            <span>Tweet & replies</span>
+            <span>Media</span>
+            <span>Likes</span>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="right__search">
+          <i class="fas fa-search"></i>
+          <input type="text" placeholder="Search Twiiter" />
+        </div>
+        <div class="right__recent-images">
+          <img src="https://picsum.photos/id/299/200" alt="" />
+          <img src="https://picsum.photos/id/3/200/300" alt="" />
+          <img src="https://picsum.photos/id/17/200/300" alt="" />
+          <img src="https://picsum.photos/id/10/200/300" alt="" />
+          <img src="https://picsum.photos/id/20/200/300" alt="" />
+          <img src="https://robohash.org/6?set=set=2" alt="" />
+        </div>
+        <div class="right__widget1 widget">
+          <h1>You might like</h1>
+          <div class="right__widget1__profiles">
+            <div class="profiles">
+              <img src="https://i.pravatar.cc/300" alt="" />
+              <div class="info">
+                <span class="name">Jane Doe</span>
+                <span class="handle">@janedoe</span>
+              </div>
+              <button class="follow">Follow</button>
+            </div>
+            <div class="profiles">
+              <img src="https://i.pravatar.cc/300" alt="" />
+              <div class="info">
+                <span class="name">Jane Doe</span>
+                <span class="handle">@janedoe</span>
+              </div>
+              <button class="follow">Follow</button>
+            </div>
+            <div class="profiles">
+              <img src="https://i.pravatar.cc/300" alt="" />
+              <div class="info">
+                <span class="name">Jane Doe</span>
+                <span class="handle">@janedoe</span>
+              </div>
+              <button class="follow">Follow</button>
+            </div>
+            <div class="profiles show-more">
+              <a href="">Show more</a>
+            </div>
+          </div>
+        </div>
+        <div class="right__widget2 widget">
+          <h1>What's Happening</h1>
+          <div class="trendings">
+            <div class="trends">
+              <span class="name">UEFA European Championship LIVE</span>
+              <div class="trends__info trends-image">
+                <h1>
+                  Wales vs Denmark: Sides meet at a major tournament for the
+                  first time
+                </h1>
+
+                <img src="https://picsum.photos/id/111/200/300" alt="" />
+              </div>
+              <span class="desc">Trending with #WALDEN, WALES</span>
+            </div>
+            <div class="trends">
+              <span class="name">Trending in India</span>
+              <div class="trends__info">
+                <h1>#Covid19SecondWave</h1>
+              </div>
+              <span class="desc">Trending with #Corona, #Covid19</span>
+            </div>
+            <div class="trends">
+              <span class="name">Polictics . Trending</span>
+              <div class="trends__info">
+                <h1>Uttar Pradesh</h1>
+              </div>
+              <span class="desc">61,896 Tweet</span>
+            </div>
+            <div class="trends">
+              <span class="name">US National News</span>
+              <div class="trends__info trends-image">
+                <h1>US reports on UFO's finds no explanation for sihtings</h1>
+                <img src="https://picsum.photos/id/76/200/300" alt="" />
+              </div>
+              <span class="desc">Trending this morning</span>
+            </div>
+            <div class="trends">
+              <span class="name">Music . LIVE</span>
+              <div class="trends__info trends-image">
+                <h1>Fans celebrate Cristiano Ronaldo;s birthday 🎉🎊</h1>
+                <img src="https://picsum.photos/id/7/200/300" alt="" />
+              </div>
+              <span class="desc">Trending today</span>
+            </div>
+            <div class="trends show-more">
+              <a href="">Show more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

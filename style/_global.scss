@@ -1,0 +1,64 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+$twitter-blue: #1da1f2;
+$dark-grey: #657786;
+$twitter-black: #14171a;
+$light-grey: #aab8c2;
+$twitter-hover: #eef8fe;
+$twitter-dark-hover: #0d90e0;
+$extra-extra-light-grey: #f5f8fa;
+$extra-light-Grey: #e1e8ed;
+
+body {
+  font-family: "Open sans", sans-serif;
+  font-weight: 16px;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 5px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 300px 600px 400px;
+}
+
+button,
+img {
+  cursor: pointer;
+}
+
+button.follow {
+  color: $twitter-blue;
+  background-color: white;
+  border: 1px solid $twitter-blue;
+  border-radius: 40px;
+  font-weight: bold;
+  font-size: 15px;
+  &:hover {
+    background-color: $twitter-hover;
+  }
+}
+
+.widget {
+  background-color: $extra-extra-light-grey;
+  border-radius: 20px;
+  h1 {
+    padding: 20px;
+    padding-bottom: 10px;
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  margin-bottom: 20px;
+}
+a {
+  text-decoration: none;
+  color: $twitter-blue;
+}
